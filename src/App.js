@@ -1,7 +1,5 @@
 import './App.css';
 import Todo from "./components/Todo";
-import Modal from "./components/Modal";
-import Backdrop from "./components/Backdrop";
 
 function App() {
     return (
@@ -10,8 +8,6 @@ function App() {
             <Todo title='Learn' />
             <Todo title='Learn more' />
             <Todo title='Learn forever' />
-            <Modal />
-            <Backdrop />
         </div>
     );
 }
